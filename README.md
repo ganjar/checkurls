@@ -7,8 +7,8 @@ php checkurls.php -u 'http://site.com/' > site.csv
 ```
 If you need test many sites you may run from several **-u** params or execute from several unix threads
 ```sh
-php checkurls.php -u 'http://site.com/' > site.csv &
-php checkurls.php -u 'http://site2.com/' > site2.csv &
+nohup php checkurls.php -u 'http://site.com/' > site.csv &
+nohup php checkurls.php -u 'http://site2.com/' > site2.csv &
 ```
 
 ## Result example:
