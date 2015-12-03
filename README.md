@@ -1,4 +1,4 @@
-# checkurls
+# СheckUrls
 Script for recursively check site urls
 
 ###Example for run:
